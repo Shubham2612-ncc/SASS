@@ -1,0 +1,12 @@
+@mixin square($width, $height, $br, $bc) {
+  width: $width;
+  height: $height;
+  border-radius: $br;
+  background-color: $bc;
+}
+
+#square {
+  @include square(100px, 100px, 5px, rgb(0, 174, 255));
+  margin-left: 600px;
+  padding: 20px;
+}

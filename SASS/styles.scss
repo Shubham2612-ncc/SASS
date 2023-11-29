@@ -1,0 +1,13 @@
+@import "square";
+@import "rectangle";
+@import "circle";
+
+
+$primary-color: whitesmoke;
+
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: $primary-color;
+}
+

@@ -1,0 +1,12 @@
+@mixin rectangle($bc: #8bbbe3){
+    width: 350px;
+    height: 150px;
+    background-color: $bc;
+}
+
+#rectangle{
+    @include rectangle();
+margin: 20px;
+padding: 10px;
+border-radius: 5px;
+}
